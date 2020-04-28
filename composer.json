@@ -1,0 +1,13 @@
+{
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "APP\\": "App/",
+      "Modules\\": "Modules/"
+    },
+    "files": [
+      "Modules/helper.php"
+    ]
+  }
+}
