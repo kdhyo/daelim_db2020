@@ -1,6 +1,8 @@
 {
   "type": "project",
-  "require": {},
+  "require": {
+    "jiny/mysql": "^0.2.0"
+  },
   "autoload": {
     "psr-4": {
       "APP\\": "App/",

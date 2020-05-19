@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Modules\\' => array($baseDir . '/Modules'),
+    'Jiny\\Mysql\\' => array($vendorDir . '/jiny/mysql/src'),
     'APP\\' => array($baseDir . '/App'),
 );

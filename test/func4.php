@@ -1,0 +1,25 @@
+<?php
+
+$args = [
+  "hello" => "안녕",
+  "msg" => "대림이"
+];
+
+function gerrting($args) { //매개변수
+  // extract($args);
+  // echo $hello . $msg;
+  foreach($args as $key => $value) {
+    // echo $key . "=" . $value."\n";
+    $key($value);
+  }
+}
+
+function hello($v) {
+  echo $v . "";
+}
+
+function msg($v) {
+  echo $v . "";
+}
+
+gerrting($args); //인자값

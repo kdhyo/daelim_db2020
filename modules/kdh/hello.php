@@ -22,11 +22,11 @@ class Hello{
         $DB_INFO .= "host=localhost"; // 다른사람 서버에 접속 IP
 
         $DB_USER = "db2020";
-        $DB_PASSWORD = "qwe123";
+        $DB_PASSWORD = "123456";
 
         // 데이터베이스 설정값
         $dbinfo = include("../dbinfo.php");
-        $db = new \kdh\Mysql\Connection($dbinfo);
+        $db = new \Jiny\Mysql\Connection($dbinfo);
         // 접속정보 설정
         /*
         $db->setUser("db2020")->setPassword("qwe123");
