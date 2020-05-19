@@ -7,9 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Modules\\' => array($baseDir . '/Modules'),
-<<<<<<< HEAD
     'APP\\' => array($baseDir . '/App'),
-=======
-    'App\\' => array($baseDir . '/App'),
->>>>>>> DB2020/master
 );

@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "type": "project",
   "require": {},
   "autoload": {
@@ -12,24 +11,3 @@
     ]
   }
 }
-=======
-    "type": "project",
-    "require": {
-
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "App/",
-            "Modules\\": "Modules/"
-        },
-        "files": [
-<<<<<<< HEAD
-            "Modules/helper.php"
-        ]
-=======
-			"Modules/helper.php"
-		]
->>>>>>> db2020/master
-    }
-}
->>>>>>> DB2020/master
